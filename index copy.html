@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Surprise</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<header>
+    <div class="header-content">
+    <img src="324755.png" style="height: 25px; width: 25px" alt="White heart image">
+    <h1>Happy Valentine's Day Han!</h1>
+    <img src="324755.png" style="height: 25px; width: 25px" alt="White heart image">
+    </div>
+</header>
+
+<section id="quiz">
+    <h2>Han Verification Check</h2>
+    <img src="cute-heart-love-logo-icon-isolated-on-white-background-png.webp" style="height: 40px; width: 40px" alt="pink heart">
+    <h6><em>Answer correctly to verify that you are Han Nguyen</em></h6>
+    <div class="quiz-container">
+        <p class="quiz-question"><br>Best Emergency Intercom episode?</p>
+        <div class="quiz-options">
+            <label><input type="radio" name="q1" value="A"> Introduction of Ky</label>
+            <label><input type="radio" name="q1" value="B"> When Enya Cried</label>
+            <label><input type="radio" name="q1" value="C"> Siblings/Lice Episode</label>
+        </div>
+        <p class="quiz-question"><br>Where did we first meet?</p>
+        <div class="quiz-options">
+            <label><input type="radio" name="q2" value="D"> At a coffee shop</label>
+            <label><input type="radio" name="q2" value="E"> Instagram.com</label>
+            <label><input type="radio" name="q2" value="F"> Stephanie Soo comment section</label>
+        </div>
+        <p class="quiz-question"><br>How tall are you?</p>
+        <div class="quiz-options">
+            <label><input type="radio" name="q3" value="G"> 5'4"</label>
+            <label><input type="radio" name="q3" value="H"> 5'2"</label>
+            <label><input type="radio" name="q3" value="I"> 5'3"</label>
+        </div>
+        <p class="quiz-question"><br>Who's the best boyfriend?</p>
+        <div class="quiz-options">
+            <label><input type="radio" name="q4" value="J"> Satoru Gojo</label>
+            <label><input type="radio" name="q4" value="K"> Nanami Kento</label>
+            <label><input type="radio" name="q4" value="L"> Amman J. Fassil</label>
+        </div>
+        <button class="quiz-button" onclick="checkAnswer()">Submit</button>
+        <p id="quiz-result"></p>
+    </div>
+</section>
+
+<div id="rest-of-site" style="display: none;">
+<body>
+    <section id="love-letter">
+        <h2>For The Eyes of Han Nguyen</h2>
+        <p>Dear Han,</p>
+        <p>The website that you are currently staring at might just be one of the world’s worst-kept secrets. I will admit, following seven of your friends in just a few hours was not my most subtle move.</p>
+        <p>Regardless, thanks to the help of your overly dedicated friends, Stack Overflow (this love letter is sponsored), and countless prayers to gods of every major denomination, this was all able to come together. So please, if you can, thank all of those who helped make this possible!</p>
+        <p>Learning how to write in HTML over the past few months has been quite the journey. There have been many moments in which I have wanted to pull all of my hair out and never touch a computer again, and others where I felt like the smartest person alive.</p>
+        <p>You have mentioned to me in the past that being an international school student means that your friends are scattered all over the place. While I do not currently have the funds to fly all your friends out in my private jet, I can give you this page with videos from all of them. I hope that watching them reminds you of how loved you are.</p>
+        <p>You mean the entire world to me—then the stars, the black holes, the solar systems, the galaxies, the universes and everything that stretches beyond our reach.</p>
+        <p>I have said it before, and I will say it again—you are such a radiant force of nature, full of life, beauty, and grace. Just as the sun pulls planets into its gravitation, you have the profound ability to pull others close to you with your generosity and warmth, while making them all feel as if they are the most special people in the world.</p>
+        <p>The videos your friends submitted all echo this much. You are the sun in human form, and I am so lucky to be in your orbit.</p>
+        <p>I love you from the bottom of my four-chambered heart,</p>
+        <p>Amman Fassil ❤️</p>
+    </section>
+    <section id="friend-videos">
+        <h2>Messages From Your Friends</h2>
+        <br>
+        <div class="gallery">
+            <figure>
+            <video controls>
+                <source src="f49e686e64684814afb9c2c533d999cf.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <figcaption>This one made me laugh :)</figcaption>
+            </figure>
+            <figure>
+            <video controls>
+                <source src="Tutu- Valentines.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <figcaption>SHE ADDED PHOTOS YAY!!!</figcaption>
+            </figure>
+            <figure>
+            <video controls>
+                <source src="My Movie 1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <figcaption>She's trying to steal you from me...</figcaption>
+            </figure>
+            <figure>
+            <video controls>
+                <source src="babdbb70ef304de3a7f38527ff449a6e.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <figcaption>Am I Seeing Double?</figcaption>
+            </figure>
+            <figure>
+            <video controls>
+                <source src="Untitled design.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <figcaption>She was very kind!</figcaption>
+            </figure>
+            <figure>
+            <video controls>
+                <source src="Untitled hdesign copy.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video>
+            <figcaption>This may be a disstrack :)</figcaption>
+            </figure>
+            <figure>
+            <video controls>
+                <source src="a5a35b3306d845558820d7a303ab9aab.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <figcaption>She called me a KING.</figcaption>
+            </figure>
+            <figure>
+            <video controls>
+                <source src="1fe8ed556e3e444d8ebb2c4e42f9ef41.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <figcaption>I couldn't ask for a better intro!</figcaption>
+            </figure>
+            <figure>
+            <video controls>
+                <source src="6bfa24401bd3475fb41714081d18a096.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <figcaption>Someone with a really cool name decided to hop on</figcaption>
+            </figure>
+            <figure>
+            <video controls>
+                <source src="a18335252c7a4b1dbec004920c30387c.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <figcaption>Moon made me tear up 🥲</figcaption>
+            </figure>
+        </div>
+    </section>
+    <section id="teaser">        
+        <p>I hope that you enjoyed the videos and website thus far! However, one question remains... </p>
+        <img src="cat-heart.gif" alt="catgif">
+    </section>    
+
+    <section id="popping-the-question">
+        <h2>Will You Be My Valentine?</h2>
+        <form>
+            <label>
+                <input type="radio" name="valentine" value="yes"> Yes
+            </label>
+            <label>
+                <input type="radio" name="valentine" value="no"> No
+            </label>
+        </form>
+        <button class="quiz-button" onclick="showValentineResponse()">Submit</button>
+        <p id="response"></p>
+    </section>    
+</div>
+    <footer id="footer">
+        <div class="foot_bottom">
+        <p>Copyright &copy; 2025 Amman J. Fassil. Designed by <span>your boyfriend who really loves you :)</span></p>
+        </div>
+     </footer>
+</body>
+</html>
