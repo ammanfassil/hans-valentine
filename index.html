@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Surprise</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Happy Valentine's Day Han!</h1>
+    </header>
+
+    <section id="love-letter">
+        <h2>A Love Letter for You<br></h2>
+        <p><br>Dear Han,</p>
+        <p>A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic. Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs. ❤️</p>
+    </section>
+    
+    <section id="quiz">
+        <h2>How Well Do You Know Us?</h2>
+        <p>Coming soon...</p>
+    </section>
+    
+    <section id="mock-youtube">
+        <h2>Messages from Your Friends</h2>
+        <div class="video-gallery">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/rCVqQ8NKU2M?si=8E6Kmy3i1Ppct4O7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/rnYFsDInGjU?si=DH7psJteiBhpFPmy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+    
+    <footer id="footer">
+        <div class="foot_bottom">
+        <p>Copyright &copy; 2025 Amman J. Fassil. Designed by <span>your boyfriend who really loves you :)</span></p>
+        </div>
+     </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            console.log("Website loaded!");
+    
+            // Placeholder quiz logic
+            const quizSection = document.getElementById("quiz");
+            const quizContent = document.createElement("div");
+            quizContent.innerHTML = `<p>Coming soon: A fun quiz about our relationship!</p>`;
+            quizSection.appendChild(quizContent);
+    
+            // Placeholder for embedding videos
+            const videoGallery = document.querySelector(".video-gallery");
+            for (let i = 1; i <= 10; i++) {
+                let video = document.createElement("iframe");
+                video.src = ""; // Replace with actual video links
+                video.allowFullscreen = true;
+                videoGallery.appendChild(video);
+            }
+        });
+    </script>
+</body>
+</html>

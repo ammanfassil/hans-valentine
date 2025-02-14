@@ -1,0 +1,179 @@
+body 
+{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffe6e6;
+    margin: 0;
+    padding: 0;
+}
+
+header 
+{
+    background-color: rgba(233, 116, 177, 0.772);
+    color: white;
+    padding: 20px;
+    font-size:  25px;
+    margin: auto;
+    position: relative;
+
+}
+
+.header-content
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.header-image
+{
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.left
+{
+    margin-right: 20px;
+}
+
+.right
+{
+    margin-left: 20px;
+}
+
+header h1
+{
+    margin: 0 20px;
+}
+
+section  
+{
+    background-color: #ffffff;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 40px;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer
+{
+    font-size: 12px;
+}
+
+.quiz-container 
+{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.quiz-question 
+{
+    font-weight: bold;
+    text-align: center;
+}
+
+.quiz-options label 
+{
+    display: block;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 70px;
+    text-align: left;
+    width: 100%;
+    padding: auto;
+}
+
+.quiz-button 
+{
+    margin-top: 10px;
+    padding: 10px;
+    background-color:  rgba(233, 116, 177, 0.772);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+input[type="radio"] 
+{
+    accent-color: rgba(233, 116, 177, 0.772);
+}
+
+ .gallery
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+} 
+
+.gallery video 
+{
+    width: 100%;
+    max-width: none;
+    border-radius: 40px;
+    padding: 5px;
+    background-color: rgba(233, 116, 177, 0.772);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+figcaption 
+{
+    font-family: 'Arial', sans-serif;
+    font-size: 16px; 
+    font-weight: 500; 
+    color: rgba(233, 116, 177, 0.772);
+    text-align: center;
+    margin-top: 10px;
+}
+
+#love-letter 
+{
+    background-color: #ffffff;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 40px;
+    width: 80%;
+    max-width: 600px;
+    margin: 40px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    line-height: 1.6;
+}
+
+#love-letter p 
+{
+    margin: 20px 0;
+}
+
+#love-letter h2 
+{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: rgba(233, 116, 177, 0.772);
+}
+
+#love-letter em 
+{
+    font-style: italic;
+}
+
+#love-letter br 
+{
+    margin-bottom: 10px;
+}
